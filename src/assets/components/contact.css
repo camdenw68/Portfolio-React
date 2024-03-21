@@ -1,0 +1,64 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(111, 96, 96, 0.591);
+  }
+  
+  .contact-formheader {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .input-field1,
+  .input-field2,
+  .input-field3 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-field1:focus,
+  .input-field2:focus,
+  .input-field3:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .input-field1::placeholder,
+  .input-field2::placeholder,
+  .input-field3::placeholder {
+    color: #999;
+  }
+  
+  textarea.input-field3 {
+    height: 120px;
+  }
+  
+  input[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  .headcontainer{
+    background-color: white;
+  }
+  .submitbtn {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
